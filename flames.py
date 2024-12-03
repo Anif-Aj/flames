@@ -51,7 +51,7 @@ st.write("Enter two names and find out the relationship status!")
 name1 = st.text_input("Enter the first name:")
 name2 = st.text_input("Enter the second name:")
 
-# Calculate the relationship status
+# Calculate the relationship status...
 if st.button("Calculate"):
     if name1 == "" or name2 == "":
         st.write("Please enter both names.")
